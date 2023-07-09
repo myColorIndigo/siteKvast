@@ -25,7 +25,7 @@ body {
     clear: both;
 }
 
-.btn {  /* неверное построение кнопок */
+.btn {
     display: inline-block;
     font: 16px;
     font-weight: bold;
@@ -37,7 +37,7 @@ body {
     border: 2px solid #834700;
 }
 
-.btn:hover { /* !ВАЖНО: переделать кнопкам эффекты*/
+.btn:hover { 
     background-color: #6a3900;
     border-color: #6a3900;
 }
