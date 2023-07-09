@@ -110,11 +110,13 @@ body {
 }
   
 .main-nav a:hover {
-    text-decoration: underline;
+    color: #ffcb78;
+    border-bottom: 2px solid #ffcb78;
 }
   
 .main-nav a:active {
     color: rgba(247, 217, 152, 0.3);
+    border-bottom: 2px solid rgba(247, 217, 152, 0.3);
 }
 
 .promo {
@@ -792,6 +794,16 @@ body {
 .footer-page .footer-nav a {
     color: #ffffff;
     text-decoration: none;
+}
+  
+.footer-page .footer-nav a:hover {
+    color: #ffcb78;
+    border-bottom: 2px solid #ffcb78;
+}
+  
+.footer-page .footer-nav a:active {
+    color: rgba(247, 217, 152, 0.3);
+    border-bottom: 2px solid rgba(247, 217, 152, 0.3);
 }
 
 .footer-page .footer-social {
