@@ -54,7 +54,7 @@ body {
 .header-page {
     min-height: 490px;
     padding-top: 60px;
-    background-image: url("img/wheat-back.jpg");
+    background-image: url("../img/wheat-back.jpg");
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
@@ -325,15 +325,15 @@ body {
 }
 
 .adv-himself::before {
-    background-image: url("img/icon-brew.png");
+    background-image: url("../img/icon-brew.png");
 }
 
 .adv-native::before {
-    background-image: url("img/icon-matreshka.png");
+    background-image: url("../img/icon-matreshka.png");
 }
 
 .adv-spend::before {
-    background-image: url("img/icon-thumbsup.png");
+    background-image: url("../img/icon-thumbsup.png");
 }
 
 .adv-title {
@@ -465,7 +465,7 @@ body {
     height: 60px;
     top: 140px;
     left: -105px;
-    background-image: url("img/quotes.png"); 
+    background-image: url("../img/quotes.png"); 
     background-repeat: no-repeat;
 }
 
@@ -675,6 +675,17 @@ body {
     border: none;
 }
 
+.order input[type="text"]:hover,
+.order textarea:hover { 
+    background-color: #b69054;
+}
+
+.order input[type="text"]:focus,
+.order textarea:focus { 
+    padding-left: 10px;
+    background-color: white;
+}
+
 .order .form-group:nth-child(5) {
     margin-bottom: 0;
 }
@@ -819,19 +830,17 @@ body {
 
 .social-in {
     left: -1px;
-    background-image: url("img/icon-insta.png");
+    background-image: url("../img/icon-insta.png");
 }
 
 .social-fb {
     left: 71px;
-    background-image: url("img/icon-fb.png");
-    border-left: none;
+    background-image: url("../img/icon-fb.png");
 }
 
 .social-vk {
     left: 142px;
-    background-image: url("img/icon-vk.png");
-    border-left: none;
+    background-image: url("../img/icon-vk.png");
 }
     
 .footer-page .footer-text {
